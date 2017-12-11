@@ -27,11 +27,11 @@ def load_batch():
     
     return imagearray, labelarray
 
-def train_test(imagearray, labelarray, classid):
-    #   200 train images from posistion 0 ++
-    train_set_x, train_set_y    = n_images(imagearray, labelarray, classid, 200, 0)
-    #   50 test images from posistion 9999 --
-    test_set_x, test_set_y      = n_images(imagearray, labelarray, classid, 50, -9999)
+def train_test(imagearray, labelarray, train, test, classid):
+    #   e.g. 200 train images from posistion 0 ++
+    train_set_x, train_set_y    = n_images(imagearray, labelarray, classid, train, 0)
+    #   e.g. 50 test images from posistion 9999 --
+    test_set_x, test_set_y      = n_images(imagearray, labelarray, classid, test, -9999)
 
     return train_set_x, train_set_y, test_set_x, test_set_y
     
