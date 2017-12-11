@@ -14,11 +14,12 @@ The dataset is divided into five training batches and one test batch, each with 
 
 [keras.py](https://github.com/EN10/KerasCIFAR/blob/master/keras.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)
 
-## Install Tensorflow
+## Install
 
     sudo pip install -U pip
     sudo pip install tensorflow 
-
+    sudo pip install h5py pillow 
+    
 ## Train
 
     python keras.py
