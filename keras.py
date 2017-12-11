@@ -2,7 +2,7 @@ from load_cifar import *
 
 download_extract()
 imagearray, labelarray = load_batch()
-train_set_x, train_set_y, test_set_x, test_set_y = train_test(imagearray, labelarray, 200, 50, 3)
+x_train, y_train, x_test, y_test = train_test(imagearray, labelarray, 200, 50, 3)
 
 from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Dense
