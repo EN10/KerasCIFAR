@@ -26,9 +26,9 @@ The dataset is divided into five training batches and one test batch, each with 
     python keras.py
 
 ## Predict
-
-https://github.com/EN10/KerasInception/blob/master/KerasInception.py
-https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py
+[predict.py](https://github.com/EN10/KerasCIFAR/blob/master/predict.py) based on 
+[KerasInception.py](https://github.com/EN10/KerasInception/blob/master/KerasInception.py) and 
+[TFKpredict.py](https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py)
 
 ### Performance:
 
