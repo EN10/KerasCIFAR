@@ -19,7 +19,6 @@ The dataset is divided into five training batches and one test batch, each with 
     sudo pip install -U pip
     sudo pip install tensorflow 
     sudo pip install h5py pillow 
-    sudo pip install scipy
     
 ## Train
 
