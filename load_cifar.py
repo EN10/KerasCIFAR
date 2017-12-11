@@ -6,7 +6,7 @@ import math             #   absolute value
 random.seed(1)          #   set a seed so that the results are consistent
 
 def download_extract():
-    if not (os.path.isdir('cifar-10-batches-py') | os.path.isfile('cifar-10-python.tar.gz')):
+    if not (os.path.isdir('cifar-10-batches-py') or os.path.isfile('cifar-10-python.tar.gz')):
         print 'no tar.gz or dir found so downloading tar.gz \n'
         os.system('wget -c https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz')
     
