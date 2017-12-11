@@ -8,8 +8,8 @@ from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Dense
 
 model = Sequential()
-
-model.add(Dense(units=64, activation='relu', input_dim=imagearray.shape[1]))
+  
+model.add(Dense(units=64, activation='relu', input_dim=imagearray.shape[1]))    #   3072
 model.add(Dense(1, activation='sigmoid'))
 
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
