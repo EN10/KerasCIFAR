@@ -37,7 +37,7 @@ def train_test(imagearray, labelarray, train, test, classid):
     
 def n_images(imagearray, labelarray, classid, n, end):
     set_x = np.empty((n,3072))                              #   Create N images
-    set_y = np.empty((1,n),dtype=np.int16)                  #   Create N labels
+    set_y = np.empty((n,1),dtype=np.int16)                  #   Create N labels
 
     i = j = 0
     while (j < n):                                          #   Select N images
@@ -45,14 +45,13 @@ def n_images(imagearray, labelarray, classid, n, end):
         
         if (labelarray[int(math.fabs(end+i))] == classid):  #   Selects Images from Class, end defines start or end
             set_x[j] = imagearray[int(math.fabs(end+i))]    #   end selects begining or end of array
-            set_y[0,j] = 1                                  #   Set label
+            set_y[j,0] = 1                                  #   Set label
             j+=1
         elif (x % 2 == 0 and labelarray[i] != classid):     #   NOT Images from Class
             set_x[j] = imagearray[int(math.fabs(end+i))]
-            set_y[0,j] = 0                                  #   Set label
+            set_y[j,0] = 0                                  #   Set label
             j+=1
         i+=1
 
-    set_x = set_x.T                                         #   Reshape to (3072, N)
     set_x = set_x/255.                                      #   0-255 -> 0-1
     return set_x, set_y
