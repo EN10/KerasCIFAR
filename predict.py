@@ -1,13 +1,10 @@
-import tensorflow as tf
+from tensorflow.python.keras.preprocessing import image
 from tensorflow.python.keras.models import load_model
 import numpy as np
 
-image = tf.image.decode_jpeg('cat.jpg')
-print image.shape
-x = tf.image.resize_images(image, [32,32])
-x = x.flatten()
-
-print x.shape
+img = image.load_img('cat.jpg', target_size=(32,32))
+x = image.img_to_array(img)
+x = np.reshape(x, (1, 3072))
 
 model = load_model('cifar.h5')
 y = model.predict(x)
