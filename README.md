@@ -1,6 +1,6 @@
 # CIFAR Keras
 
-Based on [EN10 CIFAR](https://github.com/EN10/CIFAR)
+Based on [EN10 NumPy CIFAR](https://github.com/EN10/CIFAR)
 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in [10 classes](https://github.com/EN10/KerasCIFAR#classes), with 6000 images per class.  
 There are 50000 training images and 10000 test images.  
