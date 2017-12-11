@@ -6,7 +6,7 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in [10 classes](https
 There are 50000 training images and 10000 test images.  
 The dataset is divided into five training batches and one test batch, each with 10000 images.
 
-Keras [load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on NumPy [load_cifar.py]((https://github.com/EN10/CIFAR/blob/master/load_cifar.py)):
+[Keras load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
 * download and extract CIFAR.
 * load batch into array
 * test train split
