@@ -56,7 +56,7 @@ def n_images(imagearray, labelarray, classid, n, end):
     set_x = set_x.T                                         #   Reshape to (3072, N)
     set_x = set_x/255.                                      #   0-255 -> 0-1
     return set_x, set_y
-    
-download_extract()
-i,l = load_batch()
-train_test(i, l, 3)
+
+#download_extract()
+#i,l = load_batch()
+#train_test(i, l, 3)
