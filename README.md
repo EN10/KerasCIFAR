@@ -19,9 +19,13 @@ The dataset is divided into five training batches and one test batch, each with 
     sudo pip install -U pip
     sudo pip install tensorflow 
 
-## Run
+## Train
 
     python keras.py
+
+## Predict
+
+https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py
 
 ### Performance:
 
