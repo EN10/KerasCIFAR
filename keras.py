@@ -17,4 +17,7 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 model.fit(x_train, y_train, epochs=5, batch_size=32)
 
 loss_and_metrics = model.evaluate(x_test, y_test, batch_size=128)
-print loss_and_metrics
+print('Test loss:', loss_and_metrics[0])
+print('Test accuracy:', loss_and_metrics[1])
+
+model.save('cifar.h5')
