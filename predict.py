@@ -1,13 +1,12 @@
-from tensorflow.python.keras.preprocessing import image
-from tensorflow.python.keras.applications.inception_v3 import *
-from tensorflow.python.keras.models import load_model
+from PIL import Image
 import numpy as np
+from tensorflow.python.keras.models import load_model
 
-img = image.load_img('cat.jpg', target_size=(32,32))
-x = image.img_to_array(img)
-x = np.expand_dims(x, axis=0)
-x = preprocess_input(x)
-x = x.reshape(1,3072).astype('float32') / 255
+x = Image.open("cat.jpg")
+x = np.array(x)
+
+x.tofile('cat.txt',sep="\n")
+x = x.reshape(1,3072) / 255
 
 model = load_model('cifar.h5')
 y = model.predict(x)
