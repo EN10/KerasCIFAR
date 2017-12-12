@@ -21,7 +21,8 @@ The dataset is divided into five training batches and one test batch, each with 
     sudo pip install h5py pillow 
     
 ## Train
-
+Investigate [cnn.py](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
+    
     python keras.py
 
 ## Predict  (NOT WORKING!)
