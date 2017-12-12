@@ -12,7 +12,7 @@ The dataset is divided into five training batches and one test batch, each with 
 * test train split
 * load images of classid
 
-[keras.py](https://github.com/EN10/KerasCIFAR/blob/master/keras.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)
+[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)
 
 ## Install
 
