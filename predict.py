@@ -3,7 +3,7 @@ from tensorflow.python.keras.models import load_model
 import numpy as np
 
 x = Image.open("cat.jpg")
-x = np.array(x)
+x = np.array(x)         #   (32, 32, 3)
 x = x.reshape(1,3072)
 #x.tofile('catpil.txt', "\n")
 
