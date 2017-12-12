@@ -46,6 +46,7 @@ def n_images(imagearray, labelarray, classid, n, end):
         if (labelarray[int(math.fabs(end+i))] == classid):  #   Selects Images from Class, end defines start or end
             set_x[j] = imagearray[int(math.fabs(end+i))]    #   end selects begining or end of array
             set_y[j,0] = 1                                  #   Set label
+            #print i                                        #   Print labelarray index for classid
             j+=1
         elif (x % 2 == 0 and labelarray[i] != classid):     #   NOT Images from Class
             set_x[j] = imagearray[int(math.fabs(end+i))]
