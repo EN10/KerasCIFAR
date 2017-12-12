@@ -7,4 +7,4 @@ img = np.transpose(images[26], (1, 2, 0))           #   from (3, 32, 32) to (32,
 
 from PIL import Image
 img = Image.fromarray(img, 'RGB')
-img.save('cat.jpg')
+img.save('cat.png')

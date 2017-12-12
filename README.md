@@ -48,6 +48,15 @@ The dataset is divided into five training batches and one test batch, each with 
 8 : ship  
 9 : truck 
 
-### Save Open Bug
-Save Shape: (3, 32, 32)  
-Open Shape: (32, 32, 3) 
+### Save != Open Bug
+
+**DONT USE JPG!  USE PNG.**  
+JPG Save array != JPG Open array  
+
+check array shape:
+
+    print x.shape
+
+array to file for debugging:
+
+    x.tofile('array.txt', "\n")
