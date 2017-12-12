@@ -25,6 +25,7 @@ The dataset is divided into five training batches and one test batch, each with 
     python keras.py
 
 ## Predict  (NOT WORKING!)
+
 [predict.py](https://github.com/EN10/KerasCIFAR/blob/master/predict.py) based on 
 [KerasInception.py](https://github.com/EN10/KerasInception/blob/master/KerasInception.py) and 
 [TFKpredict.py](https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py)
@@ -46,3 +47,7 @@ The dataset is divided into five training batches and one test batch, each with 
 7 : horse  
 8 : ship  
 9 : truck 
+
+### Save Open Bug
+Save Shape: (3, 32, 32)  
+Open Shape: (32, 32, 3) 
