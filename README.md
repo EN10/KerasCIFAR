@@ -19,6 +19,8 @@ The dataset is divided into five training batches and one test batch, each with 
     sudo pip install -U pip
     sudo pip install tensorflow 
     sudo pip install h5py pillow 
+
+[imsave](https://github.com/EN10/CIFAR/blob/master/README.md#compatability)
     
 ## Train    (WORK IN PROGRESS!)
 [cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
