@@ -1,6 +1,8 @@
-from scipy.misc import imread, imresize, imsave
+from scipy.misc import imresize, imsave
+from PIL import Image
 import sys
 
-x = imread(sys.argv[1])         # filename as arg
-x = imresize(x, (32, 32, 4))
-imsave('cat.png', x)
+x = Image.open(sys.argv[1])
+x = x.convert("RGB")
+x = imresize(x, (32, 32, 3))
+imsave('image.png', x)
