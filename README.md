@@ -6,14 +6,6 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in [10 classes](https
 There are 50000 training images and 10000 test images.  
 The dataset is divided into five training batches and one test batch, each with 10000 images.
 
-[Keras load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
-* download and extract CIFAR.
-* load batch into array
-* test train split
-* load images of classid
-
-[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)
-
 ## Install
 
     sudo pip install -U pip
@@ -21,9 +13,18 @@ The dataset is divided into five training batches and one test batch, each with 
     sudo pip install h5py pillow 
 
 [imsave](https://github.com/EN10/CIFAR/blob/master/README.md#compatability)
-    
+
+### cifar 10 data
+[Kera's cifar10 load_data](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py)    
+[Enio's load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
+* download and extract CIFAR.
+* load batch into array
+* test train split
+* load images of classid
+
 ## Train    (WORK IN PROGRESS!)
 [cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
+[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)
 Investigate [cnn.py](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
     
     python keras.py
