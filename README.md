@@ -20,12 +20,13 @@ The dataset is divided into five training batches and one test batch, each with 
     sudo pip install tensorflow 
     sudo pip install h5py pillow 
     
-## Train
+## Train    (WORK IN PROGRESS!)
+[cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
 Investigate [cnn.py](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
     
     python keras.py
 
-## Predict  (NOT WORKING!)
+## Predict
 
 [predict.py](https://github.com/EN10/KerasCIFAR/blob/master/predict.py) based on 
 [KerasInception.py](https://github.com/EN10/KerasInception/blob/master/KerasInception.py) and 
