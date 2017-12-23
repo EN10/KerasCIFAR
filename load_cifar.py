@@ -36,8 +36,8 @@ def train_test(imagearray, labelarray, train, test, classid):
     return train_set_x, train_set_y, test_set_x, test_set_y
     
 def n_images(imagearray, labelarray, classid, n, end):
-    set_x = np.empty((n,3072))                              #   Create N images
-    set_y = np.empty((n,1),dtype=np.int16)                  #   Create N labels
+    set_x = np.empty((n,3072), dtype='uint8')               #   Create N images
+    set_y = np.empty((n,1), dtype='uint8')                  #   Create N labels
 
     i = j = 0
     while (j < n):                                          #   Select N images
