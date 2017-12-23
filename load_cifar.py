@@ -54,5 +54,5 @@ def n_images(imagearray, labelarray, classid, n, end):
             j+=1
         i+=1
 
-    set_x = set_x/255.                                      #   0-255 -> 0-1
+    #set_x = set_x/255.                                      #   0-255 -> 0-1
     return set_x, set_y
