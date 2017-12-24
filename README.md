@@ -25,7 +25,7 @@ The dataset is divided into five training batches and one test batch, each with 
 ## Train
 
 **Working:**    
-[cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
+[cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/example/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
 
     python cifar10_cnn.py
 
