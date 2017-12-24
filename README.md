@@ -14,9 +14,9 @@ The dataset is divided into five training batches and one test batch, each with 
 
 [imsave](https://github.com/EN10/CIFAR/blob/master/README.md#compatability)
 
-### cifar 10 data
-[Kera's cifar10 load_data](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py)    
-[Enio's load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
+### Load CIFAR10 dataset
+[Keras Example](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py)    
+[My Version](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
 * download and extract CIFAR.
 * load batch into array
 * test train split
