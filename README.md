@@ -22,18 +22,24 @@ The dataset is divided into five training batches and one test batch, each with 
 * test train split
 * load images of classid
 
-## Train    (WORK IN PROGRESS!)
-[cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
-[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)
-Investigate [cnn.py](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
-    
-    python keras.py
+## Train
 
+**Working:**    
+[cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
+
+    python cifar10_cnn.py
+
+**Work In Progress:**    
+[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)   
+Investigate [MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
+    
 ## Predict
 
 [predict.py](https://github.com/EN10/KerasCIFAR/blob/master/predict.py) based on 
 [KerasInception.py](https://github.com/EN10/KerasInception/blob/master/KerasInception.py) and 
 [TFKpredict.py](https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py)
+
+    python predict.py
 
 ### Performance:
 
