@@ -1,4 +1,5 @@
 from PIL import Image
+import sys
 import numpy as np
 
 x = Image.open(sys.argv[1])
