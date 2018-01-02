@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-x = Image.open("image.png")
+x = Image.open(sys.argv[1])
 x = np.array(x)
 x = np.resize(x,(1, 32, 32, 3))
 
