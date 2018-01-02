@@ -10,4 +10,4 @@ model = load_model('keras_cifar10_trained_model.h5')
 
 labels = ['airplane','automobile','bird','cat','deer','dog','frog','horse','ship','truck']
 y = model.predict(x)
-print(lables[np.argmax(y)])
+print(labels[np.argmax(y)])
