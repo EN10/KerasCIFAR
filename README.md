@@ -14,13 +14,7 @@ The dataset is divided into five training batches and one test batch, each with 
 
 [imsave](https://github.com/EN10/CIFAR/blob/master/README.md#compatability)
 
-### Load CIFAR10 dataset
-[Keras Example](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py)    
-[My Version](https://github.com/EN10/KerasCIFAR/blob/master/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
-* download and extract CIFAR.
-* load batch into array
-* test train split
-* load images of classid
+
 
 ## Train
 
@@ -39,6 +33,20 @@ See Also:
 [TFKpredict.py](https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py)
 
     python predict.py
+
+## Utils
+
+*   [resize.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/resize.py) change image to 32 x 32 png 
+*   [save.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/save.py) save image from dataset to png
+*   [load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/load_cifar.py) see below.
+
+### Load CIFAR10 dataset
+Keras Example [cifar10.py](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py)    
+My Version [load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
+* download and extract CIFAR.
+* load batch into array
+* test train split
+* load images of classid
 
 ### Performance:
 
