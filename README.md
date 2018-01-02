@@ -41,9 +41,7 @@ See Also:
 *   [load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/load_cifar.py) see below.
 
 ### Load CIFAR10 dataset
-Keras Example [cifar10.py](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py) 
-downloaded to `~/.keras` 341MB = 163MB tar.gz + 178MB extracted 
-
+Keras Example [cifar10.py](https://github.com/keras-team/keras/blob/master/keras/datasets/cifar10.py) downloaded to `~/.keras` : 341MB = 163MB tar.gz + 178MB extracted     
 My Version [load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/load_cifar.py) based on  [NumPy load_cifar.py](https://github.com/EN10/CIFAR/blob/master/load_cifar.py):
 * download and extract CIFAR.
 * load batch into array
