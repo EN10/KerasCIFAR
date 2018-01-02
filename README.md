@@ -32,7 +32,7 @@ See Also:
 [predict.py](https://github.com/EN10/KerasCIFAR/blob/master/predict.py) based on 
 [TFKpredict.py](https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py)
 
-    python predict.py
+    python predict.py image.png
 
 ## Utils
 
