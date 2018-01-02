@@ -68,10 +68,11 @@ My Version [load_cifar.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/
 8 : ship  
 9 : truck 
 
-### Save != Open Bug
+### Debug:
 
-**DONT USE JPG!  USE PNG.**  
-JPG Save array != JPG Open array  
+**Save != Open Bug**    
+DONT USE JPG!  USE PNG.     
+JPG Save array != JPG Open array  (?compression?)
 
 check array shape:
 
