@@ -24,8 +24,8 @@ The dataset is divided into five training batches and one test batch, each with 
 
     python train.py
 
-See Also:
-[MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
+Takes ~ 20 mins on FloydHub     
+See Also: [MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
     
 ## Predict
 
