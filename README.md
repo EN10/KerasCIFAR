@@ -1,6 +1,6 @@
 # CIFAR Keras
 
-Based on [EN10 NumPy CIFAR](https://github.com/EN10/CIFAR)
+Built upon on [EN10 NumPy CIFAR](https://github.com/EN10/CIFAR)
 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in [10 classes](https://github.com/EN10/KerasCIFAR#classes), with 6000 images per class.  
 There are 50000 training images and 10000 test images.  
@@ -24,19 +24,18 @@ The dataset is divided into five training batches and one test batch, each with 
 
 ## Train
 
-**Working:**    
-[cifar10_cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/example/cifar10_cnn.py) based on [Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)   
+[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on 
+[Keras Example](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py) and 
+[Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)   
 
-    python cifar10_cnn.py
+    python train.py
 
-**Work In Progress:**    
-[train.py](https://github.com/EN10/KerasCIFAR/blob/master/train.py) based on [Keras in 30 seconds](https://keras.io/#getting-started-30-seconds-to-keras)   
-Investigate [MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
+See Also:
+[MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
     
 ## Predict
 
 [predict.py](https://github.com/EN10/KerasCIFAR/blob/master/predict.py) based on 
-[KerasInception.py](https://github.com/EN10/KerasInception/blob/master/KerasInception.py) and 
 [TFKpredict.py](https://github.com/EN10/KerasMNIST/blob/master/TFKpredict.py)
 
     python predict.py
