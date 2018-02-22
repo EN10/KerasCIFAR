@@ -6,7 +6,7 @@ from tensorflow.python.keras.utils import to_categorical
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
 # preprocessing
-x_train = x_train.astype('float32') # 
+x_train = x_train.astype('float32') # for division
 x_test = x_test.astype('float32')
 x_train /= 255 # normalise
 x_test /= 255
@@ -32,4 +32,4 @@ model.compile(loss='categorical_crossentropy',
 model.fit(x_train, y_train, epochs=1, batch_size=32)
 
 scores = model.evaluate(x_test, y_test, verbose=1)
-print('Test accuracy:', scores[1])
+print('Test accuracy:', scores[1]) #  0.587
