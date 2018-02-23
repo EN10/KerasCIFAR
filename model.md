@@ -6,7 +6,10 @@
 `tensorflow.python.keras.datasets.cifar10.load_data()`
 
 #### MLP 0.3929 (15s):   
-Dense 4 - Flatten - Dense 10 - Softmax
+
+Dense 4 - Flatten - Dense 10 - Softmax  
+
+Some ideas from [mnist_mlp](https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py)  
 
 [MLP](https://github.com/EN10/KerasCIFAR/blob/master/example/mlp.py) Analysis:
 
@@ -17,7 +20,9 @@ Dense 4 - Flatten - Dense 10 - Softmax
 * batch size 16 seems optimal. > faster but less accurate
 
 #### Simple CNN 0.6026 (21s):   
-Conv2D 32, 3, 3 - relu - Conv2D 32, 3, 3 - relu - Flatten - Dense 10 - Softmax
+Conv2D 32, 3, 3 - ReLU - Conv2D 32, 3, 3 - ReLU - Flatten - Dense 10 - Softmax  
+
+Based on [cifar10_cnn](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)
 
 Simple [CNN](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py) Analysis:
 
