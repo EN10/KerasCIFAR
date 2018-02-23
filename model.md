@@ -22,9 +22,8 @@ Dense 4 - Flatten - Dense 10 - Softmax
 Simple [CNN](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py) Analysis:
 
 * 3 Conv2D layers makes no significant improvement 
-* 32 filters seems to be optimal
+* 32 filters seems to be optimal. 64 filters gives 0.6188 accuracy in 32s
 * `adam` optimiser improves accuracy over `sgd`
-* filters
 * epochs
 * batch
 
