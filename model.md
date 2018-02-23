@@ -17,7 +17,7 @@ Dense 4 - Flatten - Dense 10 - Softmax
 * batch size 16 seems optimal. > faster but less accurate
 
 #### Simple CNN 0.6026 (21s):   
-Dense 4 - Flatten - Dense 10 - Softmax
+Conv2D 32, 3, 3 - relu - Conv2D 32, 3, 3 - relu - Flatten - Dense 10 - Softmax
 
 Simple [CNN](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py) Analysis:
 
