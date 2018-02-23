@@ -23,7 +23,7 @@ Simple [CNN](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py) Anal
 
 * 3 Conv2D layers makes no significant improvement 
 * 32 filters seems to be optimal. 64 filters gives 0.6188 accuracy in 32s
-* `adam` optimiser improves accuracy over `sgd`
+* `adam` optimiser improves accuracy over `sgd` (0.4437)
 * 2 epochs makes no significant improvement
 * batch size 32 seems optimal. > faster but less accurate
 
