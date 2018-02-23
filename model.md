@@ -8,7 +8,7 @@
 #### MLP 0.3929 (15s):   
 Dense 4 - Flatten - Dense 10 - Softmax
 
-MLP Analysis:
+[MLP](https://github.com/EN10/KerasCIFAR/blob/master/example/mlp.py) Analysis:
 
 * 4 input units seems optimial
 * extra layer makes no significant improvement.
@@ -19,9 +19,13 @@ MLP Analysis:
 #### Simple CNN 0.6026 (21s):   
 Dense 4 - Flatten - Dense 10 - Softmax
 
-Simple CNN Analysis:
+Simple [CNN](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py) Analysis:
 
+* 3 Conv2D layers makes no significant improvement 
+* 32 filters seems to be optimal
 * `adam` optimiser improves accuracy over `sgd`
+
+more analysis?
 
 #### Notes
 
