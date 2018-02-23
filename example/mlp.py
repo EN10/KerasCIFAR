@@ -25,7 +25,7 @@ model.compile(loss='categorical_crossentropy',
               optimizer='sgd',
               metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=2, batch_size=32)
+model.fit(x_train, y_train, epochs=1, batch_size=32)
 
 scores = model.evaluate(x_test, y_test, verbose=1)
 print('Test accuracy:', scores[1])  # 0.399
