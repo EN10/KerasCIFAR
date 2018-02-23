@@ -24,8 +24,9 @@ Simple [CNN](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py) Anal
 * 3 Conv2D layers makes no significant improvement 
 * 32 filters seems to be optimal
 * `adam` optimiser improves accuracy over `sgd`
-
-more analysis?
+* filters
+* epochs
+* batch
 
 #### Notes
 
