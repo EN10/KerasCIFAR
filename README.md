@@ -34,6 +34,13 @@ See Also: [MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
 
     python predict.py image.png
 
+## Examples
+
+See [Model](https://github.com/EN10/KerasCIFAR/blob/master/model.md) development.
+
+* [mlp.py](https://github.com/EN10/KerasCIFAR/blob/master/example/mlp.py)   ~ 40% acc
+* [cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py)   ~ 60% acc
+
 ## Utils
 
 *   [resize.py](https://github.com/EN10/KerasCIFAR/blob/master/utils/resize.py) change image to 32 x 32 png 
