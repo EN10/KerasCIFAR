@@ -39,8 +39,9 @@ See Also: [MNIST CNN](https://github.com/EN10/KerasMNIST/blob/master/cnn.py)
 
 See [Model](https://github.com/EN10/KerasCIFAR/blob/master/model.md) development.
 
-* [mlp.py](https://github.com/EN10/KerasCIFAR/blob/master/example/mlp.py)   ~ 40% acc
-* [cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py)   ~ 60% acc
+* [mlp.py](https://github.com/EN10/KerasCIFAR/blob/master/example/mlp.py)   ~ 41% acc
+* [cnn.py](https://github.com/EN10/KerasCIFAR/blob/master/example/cnn.py)   ~ 63% acc
+* [vgg.py](https://github.com/EN10/KerasCIFAR/blob/master/example/vgg.py)   ~ 74% acc
 
 ## Utils
 
