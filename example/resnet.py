@@ -18,7 +18,7 @@ from tensorflow.python.keras.layers import Input, Conv2D, add, MaxPooling2D, Fla
 
 def Unit(x,filters,pool=False):
     res = x
-    if pool:
+    if pool: # makes res & out the same shape
         x = MaxPooling2D(pool_size=(2, 2))(x)
         res = Conv2D(filters=filters,kernel_size=[1,1],strides=(2,2),padding="same")(res)
     out = Conv2D(filters, (1,1), padding='same', activation='relu')(x)
