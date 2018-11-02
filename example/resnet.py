@@ -32,6 +32,7 @@ net = Unit(net,64,pool=True)
 net = Unit(net,128,pool=True)
 
 net = Flatten()(net)
+net = Dense(units=256,activation="relu")(net)
 net = Dense(units=10,activation="softmax")(net)
 
 model = Model(inputs=images,outputs=net)
@@ -48,4 +49,4 @@ model.fit(x_train, y_train, batch_size=32,
           epochs=5)
 
 scores = model.evaluate(x_test, y_test, verbose=1)
-print('Test accuracy:', scores[1]) #  0.6712
+print('Test accuracy:', scores[1]) #  0.6964
